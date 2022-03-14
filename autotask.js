@@ -1,7 +1,7 @@
 const ABI = [`function safeMint(address to) public`];
 
-const ADDRESS = ""; // contract address
-const RECIPIENT = ""; //EOA etc.
+const ADDRESS = ""; // ERC-721's contract address
+const RECIPIENT = ""; // Realy address etc.
 
 const { ethers } = require("ethers");
 const {
